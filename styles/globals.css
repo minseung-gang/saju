@@ -11,6 +11,10 @@
 }
 
 @layer utilities {
+  .text-story-responsive {
+    font-size: clamp(7px, 4vw, 18px);
+    line-height: clamp(8px, 6vw, 24px);
+  }
   .max-w-container {
     max-width: var(--width-container);
   }
