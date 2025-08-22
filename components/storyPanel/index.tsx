@@ -6,7 +6,8 @@ import { IMAGE_URL } from '@/constants/common';
 
 const Index = () => {
   return (
-    <div className='relative'>
+    <section className='relative'>
+      <h2 className='sr-only'>사주 이야기</h2>
       <div className='relative aspect-[750/2806] overflow-x-clip'>
         <Image
           src={IMAGE_URL.chapter1_scene.src}
@@ -18,7 +19,7 @@ const Index = () => {
       {STORY_PANEL_MESSAGE.map((content, idx) => (
         <StoryText key={idx} content={content} />
       ))}
-    </div>
+    </section>
   );
 };
 
