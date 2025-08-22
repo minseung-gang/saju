@@ -53,7 +53,8 @@ const Index = () => {
   }, [USER_SAJU_DATE.birthDateTime]);
 
   return (
-    <div className='relative mx-3 -mt-5 border-3 border-[#1B2F49] bg-[#F5F3EC]'>
+    <section className='relative mx-3 -mt-5 border-3 border-[#1B2F49] bg-[#F5F3EC]'>
+      <h2 className='sr-only'>사주팔자 정보</h2>
       {BORDER_LAYER_BASESTYLES.map((border, idx) => (
         <div key={idx} className={`absolute bg-[#2B557E] ${border.position}`} />
       ))}
@@ -152,7 +153,7 @@ const Index = () => {
           ))}
         </SajuTableRow>
       </div>
-    </div>
+    </section>
   );
 };
 
