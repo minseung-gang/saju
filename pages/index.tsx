@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <div className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-      <div className='max-w-container mx-auto w-full'>
+      <main className='max-w-container mx-auto w-full'>
         <StoryPanel />
         <TableCell />
-      </div>
+      </main>
     </div>
   );
 }
