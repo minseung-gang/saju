@@ -29,13 +29,12 @@ yarn dev
 
 ```
 saju/
-├── src/
-│   ├── components/
-│   └── constants/                 
-│   ├── pages/              
-│   ├── styles/            
-│   ├── types/            
-│   ├── utils/             
+├── components/
+├── constants/                 
+├── pages/               
+├── styles/            
+├── types/            
+├── utils/             
 ├── public/
                    
 ```
